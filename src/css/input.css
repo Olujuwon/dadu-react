@@ -1,0 +1,36 @@
+/*text inputs*/
+input[type = text]{
+    width : 35%;
+    line-height: 40px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom:1px solid #6C7A89;
+    text-indent: 15px;
+    margin: 0px 10px 0px 10px;
+    color: #6C7A89;
+    font-size: medium;
+    font-weight: lighter;
+}
+/*input placeholder*/
+input[type = text]::placeholder{
+    color: #6C7A89;
+    font-size: medium;
+    font-weight: lighter;
+    line-height: 40px;
+}
+input[type = text]:invalid{
+    border-bottom: 1px solid rgb(233, 189, 184);
+}
+/* button*/
+input[type = button]{
+    width: 25%;
+    line-height: 40px;
+    background-color: transparent;
+    font-size: medium;
+    font-weight: 1000;
+    color: #6C7A89;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: none;
+}
