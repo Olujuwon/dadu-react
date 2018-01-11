@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import logo from './imgs/sun.svg';
 import './App.css';
 import InputForm from './components/inputcomp';
-import TodoList from './components/listitems';
+import Footer from './components/footer';
+import TodoList from './components/maintable';
 import data from './data/data.json';
 import data2 from './data/data2.json';
 
@@ -63,13 +64,9 @@ doItemX = (id)=>{
           </header>
           <InputForm  onAddNew={this.addNew}/>
           <div className='list'>
-            <ul className='todo'>
-              <TodoList todo={this.state.todoArr} onDelete={this.deleteItem} onAdd={this.doItem}/>
-            </ul>
-            <hr/>
-            <ul className='done'>
-              <TodoList todo={this.state.doneArr} onDelete={this.deleteItemX} onAdd={this.doItemX}/>
-            </ul>
+              <TodoList todo={this.state.todoArr} onDelete={this.deleteItem} onAdd={this.doItem}  tag={"Todo List"} nclas={"todo"}/>
+              <TodoList todo={this.state.doneArr} onDelete={this.deleteItemX} onAdd={this.doItemX}  tag={"Done List"} nclas={"done"}/>
+              <Footer/>
           </div>
       </div>
     );

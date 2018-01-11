@@ -1,0 +1,102 @@
+/* list container*/
+.list{
+    background-color: transparent;
+    width: 100%;
+}
+/* list buttons container*/
+.buttons{
+    width: 40px;
+    height: 40px;
+    text-align: left;
+}
+.buttons-1{
+    width: 40px;
+    height: 40px;
+    text-align: left;
+}
+.buttons-1 img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+/* svg icon delete*/
+.buttons img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+.todo, .done{
+    width: 100%;
+    margin: 15px 0px 10px 0px;
+}
+caption{
+    color: #6C7A89;
+    font-size: large;
+    font-weight: 700;
+    text-align: left;
+}
+thead tr {
+    background-color: #6C7A89;
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+    height: 5%;
+    text-align: left;
+}
+tr th{
+    width: 40%;
+    text-indent: 20px;
+}
+tbody tr{
+    color: #6C7A89;
+    font-size: medium;
+    line-height: 40px;
+    text-indent: 20px;
+    
+}
+.done tbody tr{
+    color: rgb(4, 124, 72);
+    font-size: medium;
+    line-height: 40px;
+    text-indent: 20px;
+    text-decoration-line: line-through;
+}
+tbody tr:hover{
+    background-color: #ECF0F1;
+}
+td {
+    width: 40%;
+}
+/*Responsive design starts here with 5 breakpoints*/
+@media screen and (max-width:1148px) {
+    /*Break point 1*/
+    .list {
+        width:100%;
+    }
+}
+@media screen and (max-width:868px) {
+    /*Break point 2*/
+    .list {
+        width:100%;
+    }
+}    
+@media screen and (max-width:790px) {
+    /*Break point 3*/
+    .list {
+        width:100%;
+    }
+}
+@media screen and (max-width:666px) {
+    /*Break point 4*/
+    .list {
+        width:100%;
+    }
+}
+@media screen and (max-width:634px) {
+    /*Break point 5*/
+    .list {
+        width:100%;
+    }
+}

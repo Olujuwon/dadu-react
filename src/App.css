@@ -1,12 +1,9 @@
 .App {
   font-family: roboto;
-  width: 85%;
+  width: 80%;
   height: 1vh;
   margin: auto;
   background-color: #6C7A89;
-}
-hr{
-  width: 25%;
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

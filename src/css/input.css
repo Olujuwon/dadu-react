@@ -1,4 +1,7 @@
 /*text inputs*/
+form{
+    width:100%
+}
 input[type = text]{
     width : 35%;
     line-height: 40px;
@@ -22,7 +25,7 @@ input[type = text]:invalid{
     border-bottom: 1px solid rgb(233, 189, 184);
 }
 /* button*/
-input[type = button]{
+input[type = submit]{
     width: 25%;
     line-height: 40px;
     background-color: transparent;
@@ -33,4 +36,35 @@ input[type = button]{
     -webkit-appearance: none;
     -moz-appearance: none;
     box-shadow: none;
+}
+/*Responsive design starts here with 5 breakpoints*/
+@media screen and (max-width:1148px) {
+    /*Break point 1*/
+    form {
+        width:100%;
+    }
+}
+@media screen and (max-width:868px) {
+    /*Break point 2*/
+    form {
+        width:100%;
+    }
+}    
+@media screen and (max-width:790px) {
+    /*Break point 3*/
+    form {
+        width:100%;
+    }
+}
+@media screen and (max-width:666px) {
+    /*Break point 4*/
+    form {
+        width:100%;
+    }
+}
+@media screen and (max-width:634px) {
+    /*Break point 5*/
+    form {
+        width:100%;
+    }
 }
